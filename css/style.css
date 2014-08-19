@@ -1,0 +1,31 @@
+
+.profile-image {
+	border-radius:20px;
+	width:200px;
+	border-color:#777777;
+	border-width:1px;
+	border-style:dashed;
+}
+.pages {
+	position: relative;
+}
+.page {
+	position: absolute;
+	top: 0;
+}
+
+.selected {
+	
+
+}
+.navigate.selected {
+	color: #FF9933;
+}
+.navigate.unselected{
+	color:black;
+
+}
+.navigate.unselected:hover{
+	color:#0099FF;
+
+}
