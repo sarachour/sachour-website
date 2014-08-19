@@ -6,6 +6,12 @@
 	border-width:1px;
 	border-style:solid;
 }
+.header-icon {
+	width:25px;
+	height:25px;
+	padding-right:5px;
+	display: inline-block;
+}
 .profile-name {
 	font-variant: small-caps;
 }
@@ -17,6 +23,10 @@
 	top: 0;
 }
 
+.whitespace {
+	height: 100px;
+	width: 100%;
+}
 .section {
 	font-variant: small-caps;
 	margin-left: 10px;
@@ -47,4 +57,8 @@
 }
 .pub.author {
 	width:100%;
+}
+.pub.entry {
+	padding-top:5px;
+	padding-bottom:5px;
 }
