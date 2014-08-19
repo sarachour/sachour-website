@@ -21,6 +21,7 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/skeleton.css">
 	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/style.css">
 
 	<script src="js/jquery.js"></script>
 	<script src="js/main.js"></script>
@@ -45,29 +46,30 @@
 
 	<!-- Delete everything in this .container and get started on your own site! -->
 
-	<div class="container" style="padding: 50px;">
-		<div class="one-third column">
-			<h1 class="remove-bottom">Sara Achour</h1>
-			<h5 id="office">MIT</h5>
-			<div><a id="email"></a></div>
-			<div><a id="github"></a></div>
-		</div>
-		<div class="two-thirds column" style="margin-top: 100px;">
-			<div class="container" style="padding: 10px;">
-				<div class="one-fifth column">About</div>
-				<div class="one-fifth column">Research</div>
-				<div class="one-fifth column">Side Projects</div>
-				<div class="one-fifth column">Side Projects</div>
-				<div class="one-fifth column">Side Projects</div>
-				
-			</div>
+<div class="container" id="header" style="padding: 50px;">
+	<div id="info" class="one-third column">
+		<h1 class="remove-bottom">Sara Achour</h1>
+		<h5 id="office">MIT</h5>
+		<div><a id="email"></a></div>
+		<div><a id="github"></a></div>
+	</div>
+	<div id="navigation" class="two-thirds column" style="margin-top: 100px;">
+		<div class="container" style="padding: 10px;">
+			<div id="about" class="navigate one-fifth column">About</div>
+			<div id="research" class="navigate one-fifth column">Research</div>
+			<div id="industry" class="navigate one-fifth column">Industry</div>
+			<div id="sideproj" class="navigate one-fifth column">Side Projects</div>
+			<div id="personal" class="navigate one-fifth column">Personal</div>
+			
 		</div>
 	</div>
-	<div class="container">	
+</div>
+<div class="pages container">
+	<div id="about" class="container page">	
 		<div class="one-third column">
-			<img src="images/me.png" style="border-radius:20px;width:200px;border-color:#777777;border-width:1px;border-style:dashed;"></img>
+			<img src="images/me.png" class="profile-image"></img>
 			<h3>About Me</h3>
-			<p>Skeleton is a small collection of well-organized CSS files that can help you rapidly develop sites that look beautiful at any size, be it a 17" laptop screen or an iPhone. It's based on a responsive grid, but also provides very basic CSS for typography, buttons, forms and media queries. Go ahead, resize this super basic page to see the grid in action.</p>
+			<p>Ut in ultricies odio. Vestibulum volutpat interdum nulla tempor pretium. Quisque sagittis commodo tortor, pretium vehicula arcu egestas vel. Sed at pellentesque dui, eu semper quam. Integer eleifend commodo tempus. Etiam auctor felis eu viverra malesuada. Maecenas adipiscing blandit lectus vitae auctor. Donec gravida enim et odio tincidunt placerat. In tincidunt sodales volutpat. Aliquam in arcu consectetur, facilisis lorem id, gravida massa. Suspendisse potenti. Fusce mollis, sem quis malesuada consequat, erat ipsum luctus mauris, eget tincidunt dolor arcu ac elit. Nam ante quam, convallis et lectus sit amet, fringilla interdum nibh. Morbi nisl libero, blandit et auctor luctus, fringilla ut nibh.</p>
 		</div>
 		<div class="one-third column">
 			<h3>News</h3>
@@ -84,8 +86,57 @@
 		</div>
 
 	</div><!-- container -->
+	<div id="research" class="container page">	
+		<div class="row">
+			<h3>Topaz</h3>
+			Ut in ultricies odio. Vestibulum volutpat interdum nulla tempor pretium. Quisque sagittis commodo tortor, pretium vehicula arcu egestas vel. Sed at pellentesque dui, eu semper quam. Integer eleifend commodo tempus. Etiam auctor felis eu viverra malesuada. Maecenas adipiscing blandit lectus vitae auctor. Donec gravida enim et odio tincidunt placerat. In tincidunt sodales volutpat. Aliquam in arcu consectetur, facilisis lorem id, gravida massa. Suspendisse potenti. Fusce mollis, sem quis malesuada consequat, erat ipsum luctus mauris, eget tincidunt dolor arcu ac elit. Nam ante quam, convallis et lectus sit amet, fringilla interdum nibh. Morbi nisl libero, blandit et auctor luctus, fringilla ut nibh.
+		</div>
+		<div class="row">
+			<h3>Chisel</h3>
+			Ut in ultricies odio. Vestibulum volutpat interdum nulla tempor pretium. Quisque sagittis commodo tortor, pretium vehicula arcu egestas vel. Sed at pellentesque dui, eu semper quam. Integer eleifend commodo tempus. Etiam auctor felis eu viverra malesuada. Maecenas adipiscing blandit lectus vitae auctor. Donec gravida enim et odio tincidunt placerat. In tincidunt sodales volutpat. Aliquam in arcu consectetur, facilisis lorem id, gravida massa. Suspendisse potenti. Fusce mollis, sem quis malesuada consequat, erat ipsum luctus mauris, eget tincidunt dolor arcu ac elit. Nam ante quam, convallis et lectus sit amet, fringilla interdum nibh. Morbi nisl libero, blandit et auctor luctus, fringilla ut nibh.
+		</div>
+	</div><!-- container -->
 
+	<div id="industry" class="container page">	
+		<div class="row">
+			<h3>Qualcomm</h3>
+			Ut in ultricies odio. Vestibulum volutpat interdum nulla tempor pretium. Quisque sagittis commodo tortor, pretium vehicula arcu egestas vel. Sed at pellentesque dui, eu semper quam. Integer eleifend commodo tempus. Etiam auctor felis eu viverra malesuada. Maecenas adipiscing blandit lectus vitae auctor. Donec gravida enim et odio tincidunt placerat. In tincidunt sodales volutpat. Aliquam in arcu consectetur, facilisis lorem id, gravida massa. Suspendisse potenti. Fusce mollis, sem quis malesuada consequat, erat ipsum luctus mauris, eget tincidunt dolor arcu ac elit. Nam ante quam, convallis et lectus sit amet, fringilla interdum nibh. Morbi nisl libero, blandit et auctor luctus, fringilla ut nibh.
+		</div>
+		<div class="row">
+			<h3>Hewlett Packard</h3>
+			Ut in ultricies odio. Vestibulum volutpat interdum nulla tempor pretium. Quisque sagittis commodo tortor, pretium vehicula arcu egestas vel. Sed at pellentesque dui, eu semper quam. Integer eleifend commodo tempus. Etiam auctor felis eu viverra malesuada. Maecenas adipiscing blandit lectus vitae auctor. Donec gravida enim et odio tincidunt placerat. In tincidunt sodales volutpat. Aliquam in arcu consectetur, facilisis lorem id, gravida massa. Suspendisse potenti. Fusce mollis, sem quis malesuada consequat, erat ipsum luctus mauris, eget tincidunt dolor arcu ac elit. Nam ante quam, convallis et lectus sit amet, fringilla interdum nibh. Morbi nisl libero, blandit et auctor luctus, fringilla ut nibh.
+		</div>
+		<div class="row">
+			<h3>Salk Institute</h3>
+			Ut in ultricies odio. Vestibulum volutpat interdum nulla tempor pretium. Quisque sagittis commodo tortor, pretium vehicula arcu egestas vel. Sed at pellentesque dui, eu semper quam. Integer eleifend commodo tempus. Etiam auctor felis eu viverra malesuada. Maecenas adipiscing blandit lectus vitae auctor. Donec gravida enim et odio tincidunt placerat. In tincidunt sodales volutpat. Aliquam in arcu consectetur, facilisis lorem id, gravida massa. Suspendisse potenti. Fusce mollis, sem quis malesuada consequat, erat ipsum luctus mauris, eget tincidunt dolor arcu ac elit. Nam ante quam, convallis et lectus sit amet, fringilla interdum nibh. Morbi nisl libero, blandit et auctor luctus, fringilla ut nibh.
+		</div>
+	</div><!-- container -->
 
+	<div id="sideproj" class="page container">	
+		<div class="one-third column">
+			<h3>8Tracks Virtuoso</h3>
+		</div>
+		<div class="one-third column">
+			<h3>Debauchery</h3>
+		</div>
+		<div class="one-third column">
+			<h3>Scramble</h3>
+		</div>
+
+	</div><!-- container -->
+	<div id="personal" class="page container">	
+		<div class="one-third column">
+			<h3>Art</h3>
+		</div>
+		<div class="one-third column">
+			<h3>Beer</h3>
+		</div>
+		<div class="one-third column">
+			<h3>Travel</h3>
+		</div>
+
+	</div><!-- container -->
+</div>
 <!-- End Document
 ================================================== -->
 </body>
