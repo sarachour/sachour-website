@@ -1,10 +1,13 @@
 
 .profile-image {
-	border-radius:20px;
+	border-radius:10px;
 	width:200px;
 	border-color:#777777;
 	border-width:1px;
-	border-style:dashed;
+	border-style:solid;
+}
+.profile-name {
+	font-variant: small-caps;
 }
 .pages {
 	position: relative;
@@ -14,6 +17,10 @@
 	top: 0;
 }
 
+.section {
+	font-variant: small-caps;
+	margin-left: 10px;
+}
 .selected {
 	
 
@@ -28,4 +35,12 @@
 .navigate.unselected:hover{
 	color:#0099FF;
 
+}
+
+.pub.title {
+	width:100%;
+	font-weight: bold;
+}
+.pub.author {
+	width:100%;
 }
