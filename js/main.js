@@ -5,13 +5,8 @@ var navigateTo = function(handle){
 	$(".navigate.selected", $("#navigation")).removeClass("selected");
 	$("#"+handle, $("#navigation")).addClass("selected");
 
-	var prev_sel = $(".page.selected", $(".pages"));
-	if(prev_sel.length == 1){
-		prev_sel.removeClass("selected").fadeOut(300);
-		$("#"+handle, $(".pages")).addClass("selected").fadeIn(600);
-	}
-	else
-		$("#"+handle, $(".pages")).addClass("selected").fadeIn(600);
+	$(".page.selected", $(".pages")).removeClass("selected").hide();
+	$("#"+handle, $(".pages")).addClass("selected").fadeIn(300);
 }
 
 $(document).ready(function(){
