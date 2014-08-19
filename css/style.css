@@ -25,6 +25,10 @@
 	
 
 }
+.navigate {
+	margin-left:10px;
+	margin-right:10px;
+}
 .navigate.selected {
 	color: #FF9933;
 }
