@@ -1,4 +1,59 @@
 
+var travel = [
+	{
+		id:0,
+		name:"Accomplice",
+		place:"Manhattan,NY",
+		description:"An interactive play that revolves around helping the mafia where attendees run through New York city doing errands for incognito actors.",
+
+	},
+	{
+		id:1,
+		name:"Sleep No More",
+		place:"Manhattan,NY",
+		description:"A Bioshock-esque retelling of McBeth in 1950s america. Masked attendees wander through a hotel, following whatever interests them.",
+
+	},
+	{
+		id:2,
+		name:"mmuseumm",
+		place:"Manhattan,NY",
+		description:"A tiny museum in a freight elevator in a random alleyway. Filled with a lot of quirky exhibits - super fun.",
+
+	},
+	{
+		id:3,
+		name:"Prohibition Bakery",
+		place:"Manhattan,NY",
+		description:"cocktails and mixed drinks in alcoholic cupcake form.",
+
+	},
+	{
+		id:3,
+		name:"Prohibition Bakery",
+		place:"Manhattan,NY",
+		description:"ocktails and mixed drinks in alcoholic cupcake form.",
+
+	}
+
+
+]
+
+var populateTravel = function(){
+	var parent = $("#travel");
+	for(var i=0; i < travel.length; i++){
+		var e = travel[i];
+		console.log(e);
+		var elem = $("<div/>").addClass("travel entry");
+		var title = $("<span/>").addClass("travel title").html(e.name);
+		var place = $("<span/>").addClass("travel place").html(e.place);
+		var desc = $("<span/>").addClass("travel description").html(e.description);
+		elem.append(title, place, desc);
+		parent.append(elem);
+	}
+
+}
+
 var navigateTo = function(handle){
 	if($(".selected#"+handle, $("#navigation")).length == 1)
 		return;
@@ -26,4 +81,5 @@ $(document).ready(function(){
 		var id=v.target.id;
 		navigateTo(id);
 	})
+	populateTravel();
 })

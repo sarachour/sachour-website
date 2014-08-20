@@ -31,6 +31,9 @@
 	font-variant: small-caps;
 	margin-left: 10px;
 }
+.date {
+	font-weight: bold;
+}
 .selected {
 	
 
@@ -50,13 +53,31 @@
 	color:#0099FF;
 
 }
-
+.travel.entries {
+	overflow: scroll;
+	height:300px;
+}
+.travel.entry {
+	overflow: scroll;
+	padding-bottom:10px;
+}
+.travel.title {
+	display:block;
+	font-weight: bold;
+}
+.travel.place {
+	display:block;
+	font-weight: italic;
+}
+.travel.description {
+	display:block;
+}
 .pub.title {
-	width:100%;
+	display:block;
 	font-weight: bold;
 }
 .pub.author {
-	width:100%;
+	display:block;
 }
 .pub.entry {
 	padding-top:5px;
