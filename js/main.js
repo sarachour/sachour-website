@@ -27,13 +27,6 @@ var travel = [
 		place:"Manhattan,NY",
 		description:"cocktails and mixed drinks in alcoholic cupcake form.",
 
-	},
-	{
-		id:3,
-		name:"Prohibition Bakery",
-		place:"Manhattan,NY",
-		description:"ocktails and mixed drinks in alcoholic cupcake form.",
-
 	}
 
 
