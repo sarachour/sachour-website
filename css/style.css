@@ -15,6 +15,9 @@
 .profile-name {
 	font-variant: small-caps;
 }
+.link {
+	padding-right: 5px;
+}
 .pages {
 	position: relative;
 }
