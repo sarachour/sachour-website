@@ -11,7 +11,7 @@ var travel = [
 		id:1,
 		name:"Sleep No More",
 		place:"Manhattan,NY",
-		description:"A Bioshock-esque retelling of McBeth in 1950s america. Masked attendees wander through a hotel, following whatever interests them.",
+		description:"A Bioshock-esque retelling of MacBeth in 1950s america. Masked attendees wander through a hotel, following whatever interests them.",
 
 	},
 	{
