@@ -67,10 +67,6 @@ $(document).ready(function(){
 
 	$(".page").hide();
 	navigateTo("about");
-	$(".navigate").hover(function(v){
-		var id=v.target.id;
-		navigateTo(id);
-	})
 	$(".navigate").click(function(v){
 		var id=v.target.id;
 		navigateTo(id);
