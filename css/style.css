@@ -75,6 +75,20 @@
 .travel.description {
 	display:block;
 }
+.news.title {
+	display:block-inline;
+	font-weight: bold;
+}
+.news.date {
+	display:block;
+	font-weight: normal;
+}
+.news.entry {
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.news.text {
+}
 .pub.title {
 	display:block;
 	font-weight: bold;
