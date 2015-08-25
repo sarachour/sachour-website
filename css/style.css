@@ -12,6 +12,12 @@
 	padding-right:5px;
 	display: inline-block;
 }
+.header-small-icon {
+	width:15px;
+	height:15px;
+	padding-right:2px;
+	display: inline-block;
+}
 .profile-name {
 	font-variant: small-caps;
 }
@@ -44,7 +50,10 @@
 .navigate {
 	margin-left:10px;
 	margin-right:10px;
+	padding-left:10px;
+	padding-right:10px;
 }
+
 .navigate.selected {
 	color: #FF9933;
 }
