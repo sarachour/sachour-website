@@ -183,6 +183,7 @@ var load_sideproj = function(){
 	tmpl.remove();
 }
 
+//statcounter
 
 var load_personal = function(){
 	var cntr = $("#pers_cont");

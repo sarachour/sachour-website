@@ -22,8 +22,8 @@ var PUBS = [
       authors:["Sara Achour","Martin Rinard"],
       conf:"OOPSLA 2015.",
       date:"October 2015",
-      url:"",
-      artifact:""
+      url:"http://dx.doi.org/10.1145/2814270.2814314",
+      artifact:"http://rhino.csail.mit.edu/sachour/topaz.oopsla15.artifact/"
    },
    {
       title:"An Analysis of Patch Plausibility and Correctness for Generate-And-Validate Patch Generation Systems",
@@ -31,7 +31,7 @@ var PUBS = [
       authors:["Zichao Qi","Fan Long","Sara Achour","Martin Rinard"],
       conf:"ISSTA 2015",
       date:"July 2015",
-      url:"",
+      url:"http://dl.acm.org/citation.cfm?id=2771791",
       artifact:""
    },
    {
@@ -40,7 +40,7 @@ var PUBS = [
       authors:["Sasa Misailovic","Michael Carbin","Sara Achour","Zichao Qi","Martin Rinard"],
       conf:"OOPSLA 2014, Best Paper",
       date:"October 2014",
-      url:""
+      url:"http://people.csail.mit.edu/misailo/papers/oopsla14.pdf"
    },
    {
       title:"Energy Efficient Computation in Topaz",
