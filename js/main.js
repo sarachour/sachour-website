@@ -213,7 +213,8 @@ var load_all = function(){
 var navigateTo = function(handle){
 	if($(".selected#"+handle, $("#navigation")).length == 1)
 		return;
-	$(".navigate", $("#navigation")).addClass("unselected");
+
+	$(".navigate", $("#navigation")).addClass("unselected").removeClass("selected");
 	$("#"+handle, $("#navigation")).addClass("selected").removeClass("unselected");
 
 	$(".page.selected", $(".pages")).removeClass("selected").hide();
