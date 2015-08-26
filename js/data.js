@@ -149,6 +149,12 @@ var SIDEPROJ = [
             popup notifications. Check it out <a href="https://chrome.google.com/webstore/detail/8tracks-virtuoso/ghihkgpgokfnlkldpphclkcdjidhdmda?hl=en">here</a>.`
    },
    {
+      title:"PL Offsite Webpage",
+      icon:"images/topaz-icon.png",
+      desc:`I am currently maintaining the PL Offsite Website. Visit it <a href="pl-offsite/">here</a>.`
+
+   },
+   {
       title:"Debauchery",
       icon:"images/debauchary-icon.png",
       desc:`Debauchery is a collaborative drawing game. Development currently in progress and the mobile application will be released shortly.`
