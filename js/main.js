@@ -72,7 +72,7 @@ var load_pubs = function(){
 				.css("color","grey")
 		}
 		if(vl.artifact != "" && vl.artifact != undefined){
-			$("#artifact",el).attr("href",vl.url)
+			$("#artifact",el).attr("href",vl.artifact)
 		}
 		else{
 			$("#artifact",el).attr("href","")
