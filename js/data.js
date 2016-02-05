@@ -17,6 +17,15 @@ var NEWS = [
 
 var PUBS = [
    {
+      title:"Configuration Synthesis for Programmable Analog Devices with Arco",
+      kind:"conf",
+      authors:["Sara Achour","Rahul Sarpeshkar", "Martin Rinard"],
+      conf:"PLDI 2016.",
+      date:"June 2016",
+      url:"",
+      artifact:""
+   },
+   {
       title:"Approximate Computation With Outlier Detection in Topaz",
       kind:"conf",
       authors:["Sara Achour","Martin Rinard"],
