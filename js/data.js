@@ -22,8 +22,8 @@ var PUBS = [
       authors:["Sara Achour","Rahul Sarpeshkar", "Martin Rinard"],
       conf:"PLDI 2016.",
       date:"June 2016",
-      url:"",
-      artifact:""
+      url:"res/pldi16_arco.pdf",
+      artifact:"http://rhino.csail.mit.edu/sachour/arco.pldi16.artifact/"
    },
    {
       title:"Approximate Computation With Outlier Detection in Topaz",
