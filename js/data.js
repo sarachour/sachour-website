@@ -78,7 +78,7 @@ var RESEARCH = [
       desc:`Programmable analog devices have emerged as a powerful computing substrate for performing complex 
       neuromorphic and cytomorphic computations. We present Arco, a new solver that, given a dynamical system 
       specification in the form of a set of differential equations, generates physically realizable configurations 
-      for programmable analog devices that are algebraically equivalent to the specified system.`,
+      for programmable analog devices that are algebraically equivalent to the specified system. (artifact accepted)`,
       startdate:"2015",
       enddate:"2016",
       show_summary:true
