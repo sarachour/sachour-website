@@ -69,7 +69,23 @@ var PUBS = [
    }
 ]
 
+
 var RESEARCH = [
+   {
+      title:"Arco",
+      icon:"images/arco-icon.png",
+      type:"grad",
+      desc:`Programmable analog devices have emerged as a powerful computing substrate for performing complex 
+      neuromorphic and cytomorphic computations. We present Arco, a new solver that, given a dynamical system 
+      specification in the form of a set of differential equations, generates physically realizable configurations 
+      for programmable analog devices that are algebraically equivalent to the specified system. On a set of 
+      benchmarks from the biological domain, Arco generates configurations with 35 to 534 connections and 
+      28 to 326 components in 1 to 54 minutes.`,
+      startdate:"2015",
+      enddate:"2016",
+      show_summary:true
+
+   },
    {
       title:"Topaz",
       icon:"images/topaz-icon.png",

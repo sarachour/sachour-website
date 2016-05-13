@@ -61,7 +61,8 @@ var load_pubs = function(){
 		else if(vl.kind == "thesis") {
 			$("#conf",el).html("Thesis");
 		}
-		$("#date",el).html(monthNames[date.getMonth()] +" "+ date.getFullYear());
+		$("#date",el).html(vl.date);
+		//$("#date",el).html(monthNames[date.getMonth()] +" "+ date.getFullYear());
 		if(vl.url != "" && vl.url != undefined){
 			$("#link",el).attr("href",vl.url)
 		}
