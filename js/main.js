@@ -223,14 +223,18 @@ var navigateTo = function(handle){
 	$("#"+handle, $(".pages")).addClass("selected").fadeIn(300);
 }
 
+function hashchange(){
+	if (location.hash == '') {
+		navigateTo("about");
+	} else if (location.hash.slice(0, 2) == '#/') {
+		navigateTo(location.hash.slice(2));
+	}
+}
 
 $(document).ready(function(){
 	
 	$(".page").hide();
-	navigateTo("about");
-	$(".navigate").click(function(v){
-		var id=v.target.id;
-		navigateTo(id);
-	})
+	$(window).on('hashchange', hashchange);
+	hashchange();
 	load_all();
 })
