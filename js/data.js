@@ -9,8 +9,11 @@ var ABOUTME = `I am a second year PhD Student in
 
 var NEWS = [
    {
-      title:"Arco is in the news",
-      desc:"Arco appears in MIT News, Techcrunch.",
+      title:"Arco appears in MIT News, Techcrunch",
+      desc:"Techcrunch article "+
+      "<a href='https://techcrunch.com/2016/06/20/analog-computing-and-biological-simulations-get-a-boost-from-new-mit-compiler/'>here</a>"+
+      " and MIT News article "+
+      "<a href='http://news.mit.edu/2016/analog-computing-organs-organisms-0620'>here</a>",
       date:"June 20,2015"
    },
    {
