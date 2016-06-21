@@ -54,14 +54,17 @@
 	padding-right:10px;
 }
 
-.navigate.selected {
+.navigate a {
+	text-decoration: none;
+}
+.navigate.selected a {
 	color: #FF9933;
 }
-.navigate.unselected{
+.navigate.unselected a {
 	color:black;
 
 }
-.navigate.unselected:hover{
+.navigate.unselected a:hover {
 	color:#0099FF;
 
 }
