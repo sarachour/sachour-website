@@ -9,6 +9,16 @@ var ABOUTME = `I am a second year PhD Student in
 
 var NEWS = [
    {
+      title:"Arco is in the news",
+      desc:"Arco appears in MIT News, Techcrunch.",
+      date:"June 20,2015"
+   },
+   {
+      title:"Presented at PLDI",
+      desc:"I presented Arco, the compiler that maps dynamical systems to programmable analog devices, at PLDI.",
+      date:"June 15,2016"
+   },
+   {
       title:"Awarded NSF GRFP Fellowship",
       desc:"I was awarded a graduate research fellowship from the National Science Foundation. I was one of 88 awardees in the Field of Computer Science.",
       date:"April 30,2015"
