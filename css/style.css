@@ -1,4 +1,8 @@
 
+#news-cont {
+	width:10em;
+	overflow:scroll;
+}
 .profile-image {
 	border-radius:10px;
 	width:220px;
