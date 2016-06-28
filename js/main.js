@@ -144,7 +144,7 @@ var load_aboutme = function(){
 	$("#aboutme").html(ABOUTME);
 }
 var load_links = function(){
-	$("#resume").attr("href", "resources/resume.pdf").html("resume");
+	$("#resume").attr("href", "res/resume.pdf").html("resume");
 	$("#office").html("#G730, Ray and Maria Stata Center<br>MIT, Cambridge, MA, 02139");
 	$("#email").attr("href","mailto:sachour@csail.mit.edu")
 		.html("email");
