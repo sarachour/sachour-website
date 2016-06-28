@@ -1,7 +1,7 @@
 
 #news_cont {
-	height:20em;
-	overflow:scroll;
+	height:10em;
+	overflow-y:scroll;
 }
 .profile-image {
 	border-radius:10px;
