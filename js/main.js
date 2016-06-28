@@ -81,6 +81,17 @@ var load_pubs = function(){
 				.css("pointer-events","none")
 				.css("color","grey")
 		}
+		
+		if(vl.slides != "" && vl.slides != undefined){
+			$("#slides",el).attr("href",vl.slides);
+				
+		}
+		else{
+			$("#slides",el).attr("href","")
+				.html("no slides")
+				.css("pointer-events","none")
+				.css("color","grey")
+		}
 		cntr.append(el)
 	}
 	tmpl.remove();

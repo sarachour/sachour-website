@@ -36,7 +36,8 @@ var PUBS = [
       conf:"PLDI 2016.",
       date:"June 2016",
       url:"res/pldi16_arco.pdf",
-      artifact:"http://rhino.csail.mit.edu/sachour/arco.pldi16.artifact/"
+      artifact:"http://rhino.csail.mit.edu/sachour/arco.pldi16.artifact/",
+      slides:"res/pldi16arco_pres.pdf"
    },
    {
       title:"Approximate Computation With Outlier Detection in Topaz",
@@ -45,7 +46,8 @@ var PUBS = [
       conf:"OOPSLA 2015.",
       date:"October 2015",
       url:"http://dx.doi.org/10.1145/2814270.2814314",
-      artifact:"http://rhino.csail.mit.edu/sachour/topaz.oopsla15.artifact/"
+      artifact:"http://rhino.csail.mit.edu/sachour/topaz.oopsla15.artifact/",
+      slides:"res/oopsla15topaz_pres.pdf"
    },
    {
       title:"An Analysis of Patch Plausibility and Correctness for Generate-And-Validate Patch Generation Systems",
