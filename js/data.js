@@ -1,4 +1,4 @@
-var ABOUTME = `I am a second year PhD Student in 
+var ABOUTME = `I am a fifth year PhD Student in 
             <a href="http://www.eecs.mit.edu/">Electrical Engineering and 
             Computer Science</a> at MIT and am part of the Programming and Computing group at 
             <a href="http://www.csail.mit.edu/">CSAIL</a>. Currently, I am advised by
@@ -8,6 +8,11 @@ var ABOUTME = `I am a second year PhD Student in
             programming models.`
 
 var NEWS = [
+   {
+      title:"Jaunt to appear in ASPLOS18",
+      desc:"Jaunt, a dynamical system scaling tool, is accepted to ASPLOS.",
+      date:"2018"   
+   },
    {
       title:"Arco appears in MIT News, Techcrunch",
       desc:"Techcrunch article "+
@@ -29,6 +34,13 @@ var NEWS = [
 ]
 
 var PUBS = [
+   {
+      title:"Time Dilation and Contraction for Programmable Analog Devices with Jaunt",
+      kind:"conf",
+      authors:["Sara Achour", "Martin Rinard"],
+      conf:"ASPLOS 2018",
+      date:"December 2017"
+   },
    {
       title:"Configuration Synthesis for Programmable Analog Devices with Arco",
       kind:"conf",
