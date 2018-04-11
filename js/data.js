@@ -39,7 +39,9 @@ var PUBS = [
       kind:"conf",
       authors:["Sara Achour", "Martin Rinard"],
       conf:"ASPLOS 2018",
-      date:"December 2017"
+      date:"December 2017",
+      slides:"res/asplos18_jaunt_pres.pdf",
+      url:"res/asplos18_jaunt.pdf"
    },
    {
       title:"Configuration Synthesis for Programmable Analog Devices with Arco",
